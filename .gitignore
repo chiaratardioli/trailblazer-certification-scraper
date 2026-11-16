@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Generated raw API responses
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated processed exports
+data/processed/*
+!data/processed/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+
+# Local profile list
+input/profiles.csv

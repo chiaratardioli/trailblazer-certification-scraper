@@ -33,3 +33,4 @@ data/processed/*
 
 # Local profile list
 input/profiles.csv
+input/*.csv.save
